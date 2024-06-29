@@ -3,7 +3,7 @@ Responsive Travel
 CIS 130
 Author: Anthony Nelson
 Date 6/26/2024
-Filename: index.html
+Filename: style.css
 */
 
 html {
@@ -33,7 +33,8 @@ header {
     position: sticky;
     top: 0px;
     z-index: 100;
-    background-color: #455d7a;
+    background-color: #455d7a80;
+    backdrop-filter: blur(5px);
 }
 
 .header1 * {
@@ -242,6 +243,7 @@ p {
     }
 
     .header2 h1 {
+        opacity: 1;
         width: 30%;
         margin: 0 auto;
         position: relative;
@@ -252,7 +254,7 @@ p {
     .header2 img {
         float: left;
         width: 10%;
-        margin: 16px;
+        margin: 8px;
         position: relative;
         top: -40px;
         border: solid 2px #1B1212;
@@ -261,8 +263,9 @@ p {
 
     .navlinks2 a {
         font-size: 0.8rem;
+        font-weight: bold;
         position: relative;
-        top: 65px;
+        top: 60px;
         left: -60px;
         text-decoration: none;
         color: #1B1212;
@@ -275,7 +278,7 @@ p {
 
     .header2social {
         position: relative;
-        top: -20px;
+        top: -40px;
         left: 20%;
     }
 
