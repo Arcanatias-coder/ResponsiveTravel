@@ -159,6 +159,9 @@ section img {
 .s3 h3 {
     padding-top: 32px;
 }
+.fishing {
+    display: none;
+}
 
 .interact {
     text-align: center;
@@ -342,9 +345,12 @@ p {
         font-size: 0.5rem;
         border-top: solid 1px #1B1212;
     }
+    .fishing {
+        display: none;
+    }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
     .festival1 img {
         width: 30%;
         margin-right: 16px;
@@ -379,5 +385,12 @@ p {
         top: 0px;
         left: 95%;
         z-index: 99;
+    }
+    .s3 img {
+        display: inline-block;
+        width: 45%;
+        height: 288px;
+        position: relative;
+        left: 5%;
     }
 }
